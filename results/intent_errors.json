@@ -1,0 +1,386 @@
+[
+  {
+    "text": "hello are you still there",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.7542680501937866
+    }
+  },
+  {
+    "text": "see you around",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.8837593793869019
+    }
+  },
+  {
+    "text": "farewell",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.701231062412262
+    }
+  },
+  {
+    "text": "goodnight",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.8895456790924072
+    }
+  },
+  {
+    "text": "of course",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.34436091780662537
+    }
+  },
+  {
+    "text": "cool,",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.7606043219566345
+    }
+  },
+  {
+    "text": "where can i have my supper tonight?",
+    "intent": "Order_food",
+    "intent_prediction": {
+      "name": "Transportation",
+      "confidence": 0.41318950057029724
+    }
+  },
+  {
+    "text": "i need to go intare arena",
+    "intent": "Transportation",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.752069890499115
+    }
+  },
+  {
+    "text": "what year is it",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "Transportation",
+      "confidence": 0.4286443293094635
+    }
+  },
+  {
+    "text": "Can you call me back ?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.8100758790969849
+    }
+  },
+  {
+    "text": "let's go",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5404921174049377
+    }
+  },
+  {
+    "text": "Hola.",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.42097628116607666
+    }
+  },
+  {
+    "text": "i'm done",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.915968120098114
+    }
+  },
+  {
+    "text": "quit",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "Sites_to_visit",
+      "confidence": 0.4447927474975586
+    }
+  },
+  {
+    "text": "indeed",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.4153956174850464
+    }
+  },
+  {
+    "text": "Sure",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.914526641368866
+    }
+  },
+  {
+    "text": "any best restraunt around?",
+    "intent": "Order_food",
+    "intent_prediction": {
+      "name": "Sites_to_visit",
+      "confidence": 0.564879834651947
+    }
+  },
+  {
+    "text": "what are the transport facilities here in rwanda?",
+    "intent": "Transportation",
+    "intent_prediction": {
+      "name": "Exchange_money",
+      "confidence": 0.47632071375846863
+    }
+  },
+  {
+    "text": "any forex bureauforex berua around?",
+    "intent": "Exchange_money",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5297221541404724
+    }
+  },
+  {
+    "text": "where can i get telecomunication services in kigali",
+    "intent": "Sim-card",
+    "intent_prediction": {
+      "name": "Exchange_money",
+      "confidence": 0.6241493821144104
+    }
+  },
+  {
+    "text": "tell me a joke",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "Transportation",
+      "confidence": 0.3441668748855591
+    }
+  },
+  {
+    "text": "Can I get a hamburger?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "Transportation",
+      "confidence": 0.5267859697341919
+    }
+  },
+  {
+    "text": "ofif fsdfafsfs",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7874240279197693
+    }
+  },
+  {
+    "text": "ok i gtg",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9874197840690613
+    }
+  },
+  {
+    "text": "cya",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5826135277748108
+    }
+  },
+  {
+    "text": "gotta go",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9426235556602478
+    }
+  },
+  {
+    "text": "do you have Uber in rwanda?",
+    "intent": "Transportation",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.8382626175880432
+    }
+  },
+  {
+    "text": "where can i get the bank services",
+    "intent": "Exchange_money",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.33725178241729736
+    }
+  },
+  {
+    "text": "i can't call any one,am out of service",
+    "intent": "Sim-card",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.4479878842830658
+    }
+  },
+  {
+    "text": "good afternoon",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9501670598983765
+    }
+  },
+  {
+    "text": "yo",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9644182324409485
+    }
+  },
+  {
+    "text": "good day",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.99986732006073
+    }
+  },
+  {
+    "text": "cu",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9937101602554321
+    }
+  },
+  {
+    "text": "stop",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9817350506782532
+    }
+  },
+  {
+    "text": "that sounds good",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.48251742124557495
+    }
+  },
+  {
+    "text": "can you send me a bike?",
+    "intent": "Transportation",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9606679081916809
+    }
+  },
+  {
+    "text": "how much is a sim card in rwanda?",
+    "intent": "Sim-card",
+    "intent_prediction": {
+      "name": "Transportation",
+      "confidence": 0.6934405565261841
+    }
+  },
+  {
+    "text": "moin",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8731964826583862
+    }
+  },
+  {
+    "text": "welcome",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.42522361874580383
+    }
+  },
+  {
+    "text": "Adios",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5684804916381836
+    }
+  },
+  {
+    "text": "ciao",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.3578017055988312
+    }
+  },
+  {
+    "text": "good bye rasa bot!",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.9297743439674377
+    }
+  },
+  {
+    "text": "I don't think so",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.3350323736667633
+    }
+  },
+  {
+    "text": "don't like that",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.4445232152938843
+    }
+  },
+  {
+    "text": "not really",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.9820746779441833
+    }
+  },
+  {
+    "text": "That would be great",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.6200688481330872
+    }
+  },
+  {
+    "text": "do you have any tourist attractions in kigali?",
+    "intent": "Sites_to_visit",
+    "intent_prediction": {
+      "name": "Transportation",
+      "confidence": 0.5263736844062805
+    }
+  },
+  {
+    "text": "Can you please send me an uber",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "Transportation",
+      "confidence": 0.9856898784637451
+    }
+  }
+]

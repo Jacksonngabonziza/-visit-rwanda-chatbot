@@ -1,0 +1,193 @@
+version: "3.0"
+nlu:
+- intent: Sites_to_visit
+  examples: |
+    - which places can i visit in my free time?
+    - any interesting sites to visit in kigali?
+    - i need to explore caltural sites in kigali
+    - i need to know more about kigali ,which places can i visit?
+    - do you have any tourist attractions in kigali?
+- intent: Shopping_malls
+  examples: |
+    - where can i buy some home materials here in kigali?
+    - what are the best shopping malls in kigali?
+    - am out of stock,where can i go for shopping?
+    - where can i go for shopping?
+    - i am going for sports this weekedn,but where can buy sports wear in kigali?
+    - shopping malls in kigali
+    - i need to go shopping
+- intent: Order_food
+  examples: |
+    - how can i  order food?
+    - do you have food delivery agents in rwanda?
+    - i am hungry,where can get some food ?
+    - any best restraunt around?
+    - where can i have my supper tonight?
+    - food delivery
+    - where the best place to take lunch?
+    - i want  food delivery service
+- intent: Exchange_money
+  examples: |
+    - can i exchange my USD into Rwandan Francs
+    - money exchange services
+    - exchange services
+    - any forex bureauforex berua around?
+    - where can get exchange services in kigali?
+    - is it allowed to pay in dollars here in kigali?
+    - what are the allowed currencies in rwanda?
+    - where can i get the bank services
+    - how can i pay? i only have Us dollars
+- intent: Sim-card
+  examples: |
+    - can i still use my vodacome line for internet in kigali?
+    - i need internet services
+    - do you have mtn services in rwanda?
+    - what are the best internet service providers in rwanda?
+    - i can't call any one,am out of service
+    - where can i get telecomunication services in kigali
+    - how much is a sim card in rwanda?
+    - where can get a local sim-card?
+    - what are the requirements to have a local sim card line
+- intent: Transportation
+  examples: |
+    - what are the transport facilities here in rwanda?
+    - i need to go intare arena
+    - do you have Uber in rwanda?
+    - how can i get a cab ?
+    - how much is it on motor bike?
+    - get me a cab
+    - how can i go to the town
+    - can i get a motor bike here?
+    - how can i go to kigali convetion centre?
+    - can you send me a bike?
+- intent: out_of_scope
+  examples: |
+    - Fridge Isn't Running
+    - my tv isn't working
+    - Can I get a hamburger?
+    - I want to know the weather
+    - I want a pizza
+    - what is the weather
+    - Can YouTube talk?
+    - Can you give me your datacenter's password
+    - Can you make sandwiches?
+    - my washing machine isn't working
+    - Can you please send me an uber
+    - what the weather today ?
+    - Can you call me back ?
+    - what is the square root of 5
+    - what year is it
+    - Can you give me your datacenter's password?
+    - what is the weather today
+    - ofif fsdfafsfs
+- intent: bot_challenge
+  examples: |
+    - are you a rasa bot?
+    - what are the names other people call you
+    - bot?
+    - are you a robot
+    - are you robot
+    - am i speaking to an ai?
+    - am I talking to a bot?
+    - are you sure that you're a bot?
+    - are you really a bot
+    - are you virtual?
+    - what name should I call you
+    - are you a chatbot
+    - are you artificial intelligence
+    - are you ai
+    - am I talking to a human?
+    - what is your name
+    - are you real?
+    - are you real
+    - are you an ai?
+    - are you a real bot?
+    - are you a human or a bot?
+- intent: greet
+  examples: |
+    - yo
+    - good afternoon
+    - Hello
+    - goodevening
+    - howdy
+    - hey
+    - good day
+    - HEY
+    - hi there
+    - hi
+    - hallo
+    - hello there
+    - hello its ella
+    - hello
+    - good morning
+    - welcome
+    - hello are you still there
+    - hey there
+    - hi!
+    - Hi
+    - good evening
+    - Hey
+    - Hello?
+- intent: goodbye
+  examples: |
+    - bye bye
+    - good bye
+    - ciao
+    - goodbye.
+    - cee you later
+    - good night
+    - Thanks a lot. See ya later
+    - catch you later
+    - good bye rasa bot!
+    - bye bye bot
+    - bye udo
+    - bye was nice talking to you
+    - have a nice day
+    - goodnight
+    - good by
+    - quit
+    - have a good day. time to go, bye
+    - ok i gtg
+    - bye for now
+    - see you later
+    - BYEE
+    - see you later- cau
+    - bye!
+    - farewell
+    - stop
+    - GOODBYE
+    - see you around
+    - i'm done
+- intent: deny
+  examples: |
+    - I don't think so
+    - ok
+    - no
+    - yup
+    - cool,
+    - That would be great
+    - yess please
+    - of course
+    - y
+    - Yes please
+    - Yeah
+    - yes plz
+    - yeah
+    - yes please
+    - sweet
+    - never
+    - Yepp
+    - yes...
+    - Sure
+    - Yes please!
+    - ye
+    - indeed
+    - Yes, I accept
+    - no way
+    - correct
+    - okay
+    - that sounds good
+    - Yep!
+    - Yeah sure
+    - Yes I do
+    - not really

@@ -1,0 +1,67 @@
+version: "3.0"
+nlu:
+- intent: Sites_to_visit
+  examples: |
+    - places to visit
+    - What are the fascinating places in kigal?
+- intent: Shopping_malls
+  examples: |
+    - where can buy some clothes in kigali?
+- intent: Order_food
+  examples: |
+    - where can i order food?
+    - where can i get delicious food from?
+    - can you deliver food at my apartment?
+- intent: Exchange_money
+  examples: |
+    - what are the exchange rates now in kigali?
+    - i need to convert my US dollars into Rwandan Francs
+- intent: Sim-card
+  examples: |
+    - i need a high speed internet
+    - am i allowed to own a local sim-card as a foreigner?
+- intent: Transportation
+  examples: |
+    - how much is it from here to Mariot hotel?
+    - do you have trains here rwanda?
+- intent: out_of_scope
+  examples: |
+    - tell me a joke
+    - what is the meaning of life.
+    - hows the weather
+    - I want to order a pizza
+    - order a pizza
+- intent: bot_challenge
+  examples: |
+    - aren't you a bot
+    - are you artificial
+    - are you a bot?
+    - are you a human?
+    - who are you?
+- intent: greet
+  examples: |
+    - goodmorning
+    - HI
+    - hey dude
+    - moin
+    - let's go
+    - Hola.
+- intent: goodbye
+  examples: |
+    - gotta go
+    - goodbye
+    - Adios
+    - byee
+    - cya
+    - cu
+    - bye
+- intent: deny
+  examples: |
+    - yes
+    - Yep
+    - n
+    - Yep that's fine
+    - don't like that
+    - Ok
+    - YUP
+    - Yea

@@ -1,0 +1,282 @@
+version: "3.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - yo
+    - good morning    
+    - hi
+    - hey there
+    - hey
+    - good evening
+    - hello
+    - Hello?
+    - HEY
+    - hello are you still there
+    - hallo
+    - HI
+    - Hey
+    - Hi
+    - hi!
+    - hello there
+    - hi there
+    - Hello
+    - hello its ella
+    - Hola.
+    - welcome
+    - howdy
+    - good day
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later- cau
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - goodbye
+    - i'm done
+    - quit
+    - stop
+    - bye
+    - Adios
+    - BYEE
+    - GOODBYE
+    - Thanks a lot. See ya later
+    - have a good day. time to go, bye
+    - bye bye
+    - ok i gtg
+    - bye bye bot
+    - bye for now
+    - bye udo
+    - bye was nice talking to you
+    - bye!
+    - byee
+    - catch you later
+    - ciao
+    - cya
+    - farewell
+    - good bye
+    - good bye rasa bot!
+    - good night
+    - goodbye
+    - goodbye.
+    - goodnight
+    - gotta go
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - indeed
+    - correct
+    - that sounds good
+    - yes
+    - yess please
+    - of course
+    - yup
+    - yeah
+    - yes please
+    - yes plz
+    - Sure
+    - Ok
+    - sweet
+    - cool,
+    - yes...
+    - ok
+    - ye
+    - okay
+    - That would be great
+    - YUP
+    - Yea
+    - Yeah
+    - Yeah sure
+    - Yep
+    - Yep that's fine
+    - Yep!
+    - Yepp
+    - Yes I do
+    - Yes please
+    - Yes please!
+    - Yes, I accept
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - are you a bot?
+    - am i speaking to an ai?
+    - are you a human or a bot?
+    - are you real?
+    - are you virtual?
+    - are you an ai?
+    - aren't you a bot
+    - are you a chatbot
+    - are you a rasa bot?
+    - are you a real bot?
+    - are you a robot
+    - are you ai
+    - are you artificial
+    - are you artificial intelligence
+    - are you real
+    - are you really a bot
+    - are you robot
+    - are you sure that you're a bot?
+    - bot?
+    - who are you?
+    - what is your name
+    - what name should I call you
+    - what are the names other people call you
+- intent: Order_food
+  examples: |
+    - where can i order food?
+    -how can i  order food?
+    - do you have food delivery agents in rwanda?
+    - where the best place to take lunch?
+    - where can i have my supper tonight?
+    - can you deliver food at my apartment?
+    - where can i get delicious food from?
+    - i want  food delivery service 
+    - i am hungry,where can get some food ?
+    - any best restraunt around?
+    - food delivery
+- intent: Transportation
+  examples: |
+    - how can i go to kigali convetion centre?
+    - i need to go intare arena
+    - what are the transport facilities here in rwanda?
+    - do you have Uber in rwanda?
+    - how can i get a cab ?
+    - how much is it from here to Mariot hotel?
+    - can i get a motor bike here?
+    - how much is it on motor bike?
+    - get me a cab
+    - can you send me a bike?
+    - how can i go to the town
+    - do you have trains here rwanda?
+- intent: Exchange_money
+  examples: |
+      - i need to convert my US dollars into Rwandan Francs
+      - what are the exchange rates now in kigali?
+      - any forex bureauforex berua around?
+      - where can get exchange services in kigali?
+      - can i exchange my USD into Rwandan Francs
+      - how can i pay? i only have Us dollars
+      - is it allowed to pay in dollars here in kigali?
+      - what are the allowed currencies in rwanda?
+      - exchange services
+      - money exchange services
+      - where can i get the bank services
+- intent: Sim-card
+  examples: |
+    - i need internet services
+    - what are the best internet service providers in rwanda?
+    - where can get a local sim-card?
+    - how much is a sim card in rwanda?
+    - i need a high speed internet
+    - where can i get telecomunication services in kigali
+    - what are the requirements to have a local sim card line
+    - am i allowed to own a local sim-card as a foreigner?
+    - do you have mtn services in rwanda?
+    - can i still use my vodacome line for internet in kigali?
+    - i can't call any one,am out of service
+- intent: Sites_to_visit
+  examples: |
+    - which places can i visit in my free time?
+    - What are the fascinating places in kigal?
+    - i need to know more about kigali ,which places can i visit?
+    - do you have any tourist attractions in kigali?
+    - i need to explore caltural sites in kigali
+    - places to visit
+    - any interesting sites to visit in kigali?
+- intent: Shopping_malls
+  examples: |
+    - where can i go for shopping?
+    - what are the best shopping malls in kigali?
+    - where can buy some clothes in kigali?
+    - i need to go shopping
+    - shopping malls in kigali
+    - where can i buy some home materials here in kigali?
+    - am out of stock,where can i go for shopping?
+    - i am going for sports this weekedn,but where can buy sports wear in kigali?
+- intent: out_of_scope
+  examples: |
+    - what is the square root of 5
+    - I want to know the weather
+    - what is the meaning of life.
+    - Fridge Isn't Running
+    - my tv isn't working
+    - I want a pizza
+    - my washing machine isn't working
+    - what year is it
+    - order a pizza
+    - I want to order a pizza
+    - what is the weather today
+    - what is the weather
+    - what the weather today ?
+    - hows the weather
+    - tell me a joke
+    - Can I get a hamburger?
+    - Can YouTube talk?
+    - Can you call me back ?
+    - Can you give me your datacenter's password
+    - Can you give me your datacenter's password?
+    - Can you make sandwiches?
+    - Can you please send me an uber
+    - ofif fsdfafsfs

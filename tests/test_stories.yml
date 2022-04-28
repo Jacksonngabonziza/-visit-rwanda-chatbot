@@ -1,0 +1,71 @@
+#### This file contains tests to evaluate that your bot behaves as expected.
+#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
+
+stories:
+- story: happy path 1
+  steps:
+  - user: |
+      hello there!
+    intent: greet
+  - action: utter_greet
+  - user: |
+      i need to know about transportation in kigali
+    intent: Transportation
+  - action: utter_transport
+  - user: |
+      good bye
+    intent:  goodbye
+  - action: utter_goodbye
+
+- story: happy path 2
+  steps:
+  - user: |
+      hey 
+    intent: greet
+  - action: utter_greet
+  - user: |
+      where can i go for shopping?
+    intent: Shopping_malls
+  - action: utter_Shopping_malls
+  - user: |
+      ok thanks,how about buying local sim-card?
+    intent: Sim-card
+  - action: utter_Sim-card
+  
+  - user: |
+        good bye
+    intent:  goodbye
+  - action: utter_goodbye
+
+- story: sad path 
+  steps: 
+  - user: |
+     hey
+    intent: greet
+  - action: utter_greet
+  - user: |
+      when did chogm start?
+    intent:  nlu_fallback
+  - action: utter_default
+
+
+
+
+
+
+
+
+
+
+
+
+  #     - greet
+  # - goodbye
+  # - deny
+  # - bot_challenge
+  # - Order_food
+  # - Transportation
+  # - Exchange_money
+  # - Sim-card
+  # - Sites_to_visit
+  # - Shopping_malls

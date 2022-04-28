@@ -1,0 +1,101 @@
+version: "3.0"
+
+intents:
+  - greet
+  - goodbye
+  - deny
+  - bot_challenge
+  - Order_food
+  - Transportation
+  - Exchange_money
+  - Sim-card
+  - Sites_to_visit
+  - Shopping_malls
+
+responses:
+  utter_greet:
+  - text: |
+        Hey!,i can help you with these service:                         
+        - Transport facilities
+        - Food delivery and restaurant locations in kigali
+        - Up coming events in kigali
+        - Shopping malls in kigali
+        - TeleCommunication  services
+        - Currency exchange in kigali(forex and banks)
+        - Sites to visit"
+  utter_goodbye:
+  - text: "Bye,thank you for using our services "
+
+  utter_iamabot:
+  - text: |
+        I am an AI conversational chat bot designed by Digital Umuganda.
+        if you would like to have any AI driven solution for your customers 
+        please reachout : info@digitalumuganda.com
+  utter_food_order:
+  - text: |
+        you can order food  via different e-commerce platforms in kigali, please check these apps in your Store
+        - vuba vuba app
+        - kfc app
+        - Pana Food apps
+        - Rushfood app
+        - Pack&Pick app
+        - Pozo app
+  utter_transport:
+  - text: |
+        You can use a motorbike or cab ,
+        they all use standardized counter 
+        for more info please visit https://www.yegomoto.com/
+  utter_Exchange_money: 
+  - text: |
+        • Currency exchange services in Rwanda are offered by all banks
+        - Bank of kigali | [location](web: www.bk.rw)
+        - Equity bank    | loacation: map url | web: www.equity.rw
+        - Coge bank      | location: map url  | web: www.cogebank.rw
+        • You can also check some forex beruas in kigali:
+        - Shahansha Forex | [google map](https://bit.ly/3KoSuJf)
+        - La Fortune Forex Bureau | loacation : map url
+        - Diamond Forex Bureau | loacation : map url
+        - RG Forex Bureau | loacation : map url
+        - Prime Forex Bureau | loacation : map url
+        - Rebex Forex Bureau | loacation : map url
+        - Lavita Forex  | loacation : map url
+  utter_Sim-card:
+  - text: |
+        There are mainly two service providers in Rwanda you can reachout to any of them for this service
+        MTN:- Nyarutarama mtn branch | map url
+            - Remera mtn branch  | map url
+        AIRTEL:- GIsiment branch | map url
+              - Remera branch  | map url
+  utter_Sites_to_visit:
+  - text: |
+        There are many place you can visit :
+          - Kigali Genocide memorial site
+          - Richard khant Museum
+          - kigali exhibition and conference village
+  utter_Shopping_malls:
+  - text: |
+        We have big and medium size shop malls
+        - Simba supermarket Kigali City Mall   | map url
+        - Masterpiece Mall, Remera, Giporoso   | map url
+        - Kigali City Mall | map url 
+        - Kigali City Market | marp url
+        - M Peace Plaza  | map url
+        - Kisementi Business Mall |map url
+        - Agaseke Products  | map url
+
+  utter_default:
+    - text: |
+          I didn't quit understand you, i can only answer questions regarding:
+          - Transport facilities
+          - Food delivery and restaurant locations in kigali
+          - Up coming events in kigali
+          - Shopping malls in kigali
+          - TeleCommunication  services
+          - Currency exchange in kigali(forex and banks)
+          - Sites to visit
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

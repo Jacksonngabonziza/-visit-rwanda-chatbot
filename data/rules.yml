@@ -1,0 +1,55 @@
+version: "3.0"
+
+rules:
+
+
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+# utter_greet:
+
+- rule: say hey when user greets you
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+
+- rule: provide food delevery agencies 
+  steps:
+  - intent: Order_food
+  - action: utter_food_order
+- rule: provide transportation facilities
+  steps:
+  - intent: Transportation
+  - action: utter_transport
+- rule: provide money exchange service providers
+  steps:
+  - intent: Exchange_money
+  - action: utter_Exchange_money
+- rule: provide TeleCommunication service providers
+  steps:
+  - intent: Sim-card
+  - action: utter_Sim-card
+
+- rule: provide sites to visit
+  steps:
+  - intent: Sites_to_visit
+  - action: utter_Sites_to_visit
+  
+
+- rule: provide shopping malls in kigali
+  steps:
+  - intent: Shopping_malls
+  - action: utter_Shopping_malls
+
+- rule: Ask the user to rephrase whenever they send a message with low NLU confidence
+  steps:
+  - intent: nlu_fallback
+  - action: utter_default

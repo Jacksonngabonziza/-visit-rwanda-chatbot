@@ -1,0 +1,62 @@
+version: "3.0"
+
+stories:
+
+- story: greet and challenge the bot
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- story: greet and ask for money exchange
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Exchange_money
+  - action: utter_Exchange_money
+ 
+
+- story: greet and ask for transport services
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Transportation
+  - action: utter_transport
+
+
+- story: greet and ask for food delivery 
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Order_food
+  - action: utter_food_order
+ 
+
+- story: greet and ask for Shopping malls
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Shopping_malls
+  - action: utter_Shopping_malls
+ 
+
+- story: greet and ask for Sites to visit
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Sites_to_visit
+  - action: utter_Sites_to_visit
+ 
+- story: greet and ask how to get a sim-card
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Sim-card
+  - action: utter_Sim-card
+
+
+- story: Ask the user to rephrase whenever they send a message with low NLU confidence + inform the bot scope
+  steps:
+  - intent: nlu_fallback
+  - action: utter_default
