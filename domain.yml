@@ -44,28 +44,28 @@ responses:
   - text: |
         You can use a motorbike or cab ,
         they all use standardized counter 
-        for more info please visit https://www.yegomoto.com/
+        for more info please visit [YEGO MOTORS] (https://www.yegomoto.com/)
   utter_Exchange_money: 
   - text: |
         • Currency exchange services in Rwanda are offered by all banks
-        - Bank of kigali | [location](web: www.bk.rw)
-        - Equity bank    | loacation: map url | web: www.equity.rw
-        - Coge bank      | location: map url  | web: www.cogebank.rw
+        - Bank of kigali |  [GoogleMap](https://bit.ly/37KhVI9) | [web] (www.bk.rw)
+        - Equity bank    | [GoogleMap](https://bit.ly/3vJBfwY)  | [web](www.equity.rw)
+        - Coge bank      | [GoogleMap](https://bit.ly/37PqPDW)  | [web](https://cogebanque.co.rw)
         • You can also check some forex beruas in kigali:
         - Shahansha Forex | [google map](https://bit.ly/3KoSuJf)
-        - La Fortune Forex Bureau | loacation : map url
-        - Diamond Forex Bureau | loacation : map url
-        - RG Forex Bureau | loacation : map url
-        - Prime Forex Bureau | loacation : map url
-        - Rebex Forex Bureau | loacation : map url
-        - Lavita Forex  | loacation : map url
+        - La Fortune Forex Bureau | [google map](https://bit.ly/3xZjqN0)
+        - Diamond Forex Bureau |[google map](https://bit.ly/38yXKgj)
+        - RG Forex Bureau | [google map](https://bit.ly/38xNJQi)
+        - Prime Forex Bureau | [google map](https://bit.ly/3LqPMnO)
+        - Rebex Forex Bureau | [google map](https://bit.ly/3y5fhqW)
+        - Lavita Forex  | [google map](https://bit.ly/37Vck1r)
   utter_Sim-card:
   - text: |
         There are mainly two service providers in Rwanda you can reachout to any of them for this service
-        MTN:- Nyarutarama mtn branch | map url
-            - Remera mtn branch  | map url
-        AIRTEL:- GIsiment branch | map url
-              - Remera branch  | map url
+        MTN:- Nyarutarama mtn branch | [google map](https://bit.ly/36Xshnx)
+            - Remera mtn branch  | [google map](https://bit.ly/37L3fZf)
+        AIRTEL:- Gisiment branch | [google map](https://bit.ly/3LqR5De)
+              - Remera branch  | [google map](https://bit.ly/3vT4LAw)
   utter_Sites_to_visit:
   - text: |
         There are many place you can visit :
@@ -75,13 +75,13 @@ responses:
   utter_Shopping_malls:
   - text: |
         We have big and medium size shop malls
-        - Simba supermarket Kigali City Mall   | map url
-        - Masterpiece Mall, Remera, Giporoso   | map url
-        - Kigali City Mall | map url 
-        - Kigali City Market | marp url
-        - M Peace Plaza  | map url
-        - Kisementi Business Mall |map url
-        - Agaseke Products  | map url
+        - Simba supermarket Kigali City Mall   | [GoogleMap](https://bit.ly/36XS2UB)
+        - Masterpiece Mall, Remera, Giporoso   | [GoogleMap](https://bit.ly/3LmkP4d)
+        - Kigali City Mall | [GoogleMap](https://bit.ly/3KuRu6i)
+        - Kigali City Market | [GoogleMap](https://bit.ly/3vqHTJy)
+        - M Peace Plaza  | [GoogleMap](https://bit.ly/3ODhAay)
+        - Kisementi Business Mall | [GoogleMap](https://bit.ly/3EZ490r)
+        - Agaseke Products  | [GoogleMap](https://bit.ly/3y1ABOf)
 
   utter_default:
     - text: |
