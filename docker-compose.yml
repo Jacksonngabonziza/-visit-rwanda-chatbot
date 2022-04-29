@@ -1,12 +1,12 @@
 version: '3.4'
 services:
 
-  duckling-server:
-    image: rasa/duckling:latest
-    ports:
-    - 8000:8000
-    networks:
-    - all
+  # duckling-server:
+  #   image: rasa/duckling:latest
+  #   ports:
+  #   - 8000:8000
+  #   networks:
+  #   - all
 
   rasa-server:
     image: rasa-bot:latest
@@ -22,19 +22,19 @@ services:
     # public: true
     networks:
     - all
-  rasa-actions:
-    build: "./"
-    image: rasa-bot:latest
-    restart: always
-    working_dir: /app/actions
-    volumes:
-    - ./actions:/app/actions
-    - ./utils:/app/utils
-    command: bash -c "rasa run actions --debug"
-    ports:
-    - '5055:5056'
-    networks:
-      - all
+  # rasa-actions:
+  #   build: "./"
+  #   image: rasa-bot:latest
+  #   restart: always
+  #   working_dir: /app/actions
+  #   volumes:
+  #   - ./actions:/app/actions
+  #   - ./utils:/app/utils
+  #   command: bash -c "rasa run actions --debug"
+  #   ports:
+  #   - '5055:5056'
+  #   networks:
+  #     - all
 
 networks:
   all:
