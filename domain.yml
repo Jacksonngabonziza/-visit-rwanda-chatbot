@@ -22,15 +22,17 @@ responses:
         - Shopping malls in kigali
         - TeleCommunication  services
         - Currency exchange in kigali(forex and banks)
-        - Sites to visit"
+        - Sites to visit
   utter_goodbye:
   - text: "Bye,thank you for using our services "
 
   utter_iamabot:
   - text: |
-        I am an AI conversational chat bot designed by Digital Umuganda.
+        I am an AI conversational chat bot designed by 
+        Digital Umuganda an East African Artificial intelligence company based in Kigali.
         if you would like to have any AI driven solution for your customers 
-        please reachout : info@digitalumuganda.com
+        please reachout : info@digitalumuganda.com  or visit our [website](https://digitalumuganda.com/)
+                         
   utter_food_order:
   - text: |
         you can order food  via different e-commerce platforms in kigali, please check these apps in your Store
