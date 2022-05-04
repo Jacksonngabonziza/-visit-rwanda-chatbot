@@ -193,10 +193,10 @@ nlu:
     - where can i have my supper tonight?
     - can you deliver food at my apartment?
     - where can i get delicious food from?
-    - i want  food delivery service 
+    - i want  food delivery service
     - i am hungry,where can get some food ?
     - any best restraunt around?
-    - food delivery
+    -  food delivery
     - where can i order vegitable burger ?
     - do you have online food order services in rwanda?
     - where can i buy jolof in kigali?
@@ -204,6 +204,17 @@ nlu:
     - where can i get veg pizza in kigali?
     - where can i buy wine?
     - i want to buy whisky,where can i get it?
+    - Can I get a hamburger?
+    - What food can i order?
+    - what can I do if I want to order food
+    - How can i get food
+    - Do you know how I can get food
+    - Do i know how to get food in Kigali
+    - Is there a way I can order food
+    - What is the best food delivery service in Kigali
+    - where can get food
+    - what is the fastest way to order food
+    - how much does food cost
 - intent: Transportation
   examples: |
     - how can i go to kigali convetion centre?
@@ -214,7 +225,7 @@ nlu:
     - how much is it from here to Mariot hotel?
     - can i get a motor bike here?
     - how much is it on motor bike?
-    - get me a cab 
+    - get me a cab
     - can you send me a bike?
     - how can i go to the town
     - do you have trains here rwanda?
@@ -225,7 +236,21 @@ nlu:
     - can you send me a cab
     - how much is the transport fee per kilometer on a bike?
     - are tax cabs expensive in kigali?
+    - where can i get a bike
+    - what is the prefered transport in kigali
+    - how can I move around in this city
+    - I want to get a taxi
+    - I want to take a bike
+    - I have to go to town
+    - I need to move asap
+    - I need to move
+    - How do I move from here
+    - Which means of transportation do you have
+    - What is the best mean of transportation
+    - How much is the trasport from here to intare
+    - How much does it cost to get a taxi
     
+
 - intent: Exchange_money
   examples: |
       - i need to convert my US dollars into Rwandan Francs
@@ -238,9 +263,31 @@ nlu:
       - what are the allowed currencies in rwanda?
       - exchange services
       - money exchange services
-      - where can i get the bank 
+      - where can i get the bank
       - can i pay with my kenyan shillings here in kigali,or i have to go for currency exchnage?
       - what are the rates of US Dollars to Rwandan francs?
+      - How much are rwandan francs worth
+      - where can I exchange some money
+      - How do you exchange money in Rwanda
+      - where is the closest forex bureau
+      - I need to exchange money
+      - Can i pay in dollars in Rwanda
+      - How much is the conversion from dollar to rwandan francs
+      - how much is the dollar to rwandan francs
+      - how can I covert my money
+      - How does convertion work in rwanda
+      - Do you know how conversion works
+      - How can I exchange my money
+      - How can I change money
+      - How can I exchange to Rwandan francs
+      - Where can I get dollars
+      - Where can I get a forex bureau
+      - where can I convert my money
+      - Do you know where I can exchange my money
+      - how can i get USD dollars
+      - How can I get Franc CFA
+      - I have 5000 USD where can I convert them
+
 - intent: Sim-card
   examples: |
     - i need internet services
@@ -254,6 +301,20 @@ nlu:
     - do you have mtn services in rwanda?
     - can i still use my vodacome line for internet in kigali?
     - i can't call any one,am out of service
+    - Which communication service do you have
+    - How can i get a sim card
+    - where can i recharge my telephone
+    - which MNO do you have in Rwanda
+    - Does MTN work in Rwanda
+    - Does TIGO work in RWANDA
+    - What are the roaming charges in Rwanda
+    - How to get internet
+    - Is internet free in Rwanda
+    - What is the best time to make a call
+    - How much is a local sim-card
+    - Do i need to show my passport to have a sim-card
+    - How can i receive a sim card
+
 - intent: Sites_to_visit
   examples: |
     - which places can i visit in my free time?
@@ -263,6 +324,24 @@ nlu:
     - i need to explore caltural sites in kigali
     - places to visit
     - any interesting sites to visit in kigali?
+    - what is the best sites in Kigali
+    - what are the best touristic sites here
+    - Where can I got to have fun
+    - what are important visiting places in kigali
+    - what are the touristic sites in Rwanda
+    - Where can I travel to visit kigali
+    - What are the landmarks in kigali
+    - Where can I visit if I want to see Rwanda
+    - Do you have museums in Rwanda
+    - Do you have parks in Kigali
+    - Do you have attraction parks in Rwanda
+    - How many forests do you have
+    - How many touristics landmarks exists 
+    - Where can I go if I want to learn the history of Rwanda
+    - How can I go to the Tutsi genocide memorial site
+    - How can I go to Gisozi genocide memorial
+    - How can I got to a museum
+
 - intent: Shopping_malls
   examples: |
     - where can i go for shopping?
@@ -273,6 +352,23 @@ nlu:
     - where can i buy some home materials here in kigali?
     - am out of stock,where can i go for shopping?
     - i am going for sports this weekedn,but where can buy sports wear in kigali?
+    - I want to buy shoes
+    - where do we buy electronic gadgets
+    - where can I buy clothes
+    - Where is your shopping mall
+    - What is the biggest shopping mall in Kigali
+    - Do you have shopping malls in Rwanda
+    - Do you have malls
+    - I want to go shopping
+    - where can get clothes?
+    - I need to buy a bracelets
+    - I want to buy a telephone
+    - I want to shop some souvenirs
+    - Shopping centers
+    - Do you have zara in Kigali
+    - Where is the nearest electronic shop 
+    - Do you have luxury shops in Kigali
+
 - intent: out_of_scope
   examples: |
     - what is the square root of 5
@@ -280,11 +376,8 @@ nlu:
     - what is the meaning of life.
     - Fridge Isn't Running
     - my tv isn't working
-    - I want a pizza
     - my washing machine isn't working
     - what year is it
-    - order a pizza
-    - I want to order a pizza
     - what is the weather today
     - what is the weather
     - what the weather today ?
@@ -295,6 +388,11 @@ nlu:
     - Can you call me back ?
     - Can you give me your datacenter's password
     - Can you give me your datacenter's password?
-    - Can you make sandwiches?
-    - Can you please send me an uber
     - ofif fsdfafsfs
+    - Who won the champions league
+    - What is the capital city of USA
+    - what is one plus one
+    - How many planets does the solar system have
+    - Who is the president of Rwanda
+    - How many wife can I get in Rwanda
+    - How to get a wife in Rwanda
