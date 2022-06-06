@@ -1,0 +1,100 @@
+{
+  "bot_challenge": {
+    "precision": 1.0,
+    "recall": 0.9782608695652174,
+    "f1-score": 0.989010989010989,
+    "support": 46,
+    "confused_with": {
+      "greet": 1
+    }
+  },
+  "Transportation": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 25,
+    "confused_with": {}
+  },
+  "out_of_scope": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 25,
+    "confused_with": {}
+  },
+  "deny": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 52,
+    "confused_with": {}
+  },
+  "Sites_to_visit": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 24,
+    "confused_with": {}
+  },
+  "Shopping_malls": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 24,
+    "confused_with": {}
+  },
+  "goodbye": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 46,
+    "confused_with": {}
+  },
+  "Exchange_money": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 34,
+    "confused_with": {}
+  },
+  "Sim-card": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 24,
+    "confused_with": {}
+  },
+  "greet": {
+    "precision": 0.9821428571428571,
+    "recall": 1.0,
+    "f1-score": 0.9909909909909909,
+    "support": 55,
+    "confused_with": {}
+  },
+  "Order_food": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 26,
+    "confused_with": {}
+  },
+  "accuracy": 0.9973753280839895,
+  "macro avg": {
+    "precision": 0.9983766233766235,
+    "recall": 0.9980237154150197,
+    "f1-score": 0.9981819981819982,
+    "support": 381
+  },
+  "weighted avg": {
+    "precision": 0.9974221972253468,
+    "recall": 0.9973753280839895,
+    "f1-score": 0.9973727296561941,
+    "support": 381
+  },
+  "micro avg": {
+    "precision": 0.9973753280839895,
+    "recall": 0.9973753280839895,
+    "f1-score": 0.9973753280839895,
+    "support": 381
+  }
+}

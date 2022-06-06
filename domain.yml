@@ -1,0 +1,102 @@
+
+   
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - deny
+  - bot_challenge
+  - Order_food
+  - Transportation
+  - Exchange_money
+  - Sim-card
+  - Sites_to_visit
+  - Shopping_malls
+
+responses:
+  utter_greet:
+  - text: |
+        Muraho! nabafasha muri izi service zikurikira:                         
+          - Transport/uburyo bw'imigendere
+          - Gutumiza ibiryo n'aho wafatira infunguro hafi yawe
+          - ibirori n'imyidagaduro muri kigali
+          - Amasoko n'amaguriro muri kigali
+          - Serivie z'itumanaho
+          - Serivise zo kuvunjisha n'aho wazisanga 
+          - Servise z'ubukerarugendo n'ahantu nyaburanga wasura
+  utter_goodbye:
+  - text: "Mugire amahoro,Mwakoze gukoresha serivise zacu "
+
+  utter_iamabot:
+  - text: |
+        Ndi irobo ryakozwe n'ikigo cyitwa Digital umuganda,gitanga serivise z'ikoranabuhanga.
+        wifuza igisubizo cyagufasha kwiyegereza amabakiriya bawe byoroshye watugana tukagufasha. 
+        kuri email: info@digitalumuganda.com  cg ugasura[urubuga](https://digitalumuganda.com/)
+                         
+  utter_food_order:
+  - text: |
+        Ushobora gutumiza ibyokurya ku mbuga zitandukanye z'ubucurizi mu rwanda,wareba imwe muri izi application yagufasha
+          - vuba vuba app
+          - kfc app
+          - Pana Food apps
+          - Rushfood app
+          - Pack&Pick app
+          - Pozo app
+  utter_transport:
+  - text: |
+        Ushobora gukoresha moto cg Tax ,
+        byose bikoresha mubazi
+        Ukeneye andi makuru wasura [YEGO MOTORS](https://www.yegomoto.com/)
+  utter_Exchange_money: 
+  - text: |
+        • Bank zose zitanga service zo kuvunjisha
+          - Bank of kigali |  [GoogleMap](https://bit.ly/37KhVI9) | [web](www.bk.rw)
+          - Equity bank    | [GoogleMap](https://bit.ly/3vJBfwY)  | [web](www.equity.rw)
+          - Cogebank      | [GoogleMap](https://bit.ly/37PqPDW)  | [web](https://cogebanque.co.rw)
+        • wareba na abavunjisha bikorera muri kigali:
+          - Shahansha Forex | [google map](https://bit.ly/3KoSuJf)
+          - La Fortune Forex Bureau | [google map](https://bit.ly/3xZjqN0)
+          - Diamond Forex Bureau |[google map](https://bit.ly/38yXKgj)
+          - RG Forex Bureau | [google map](https://bit.ly/38xNJQi)
+          - Prime Forex Bureau | [google map](https://bit.ly/3LqPMnO)
+          - Rebex Forex Bureau | [google map](https://bit.ly/3y5fhqW)
+          - Lavita Forex  | [google map](https://bit.ly/37Vck1r)
+  utter_Sim-card:
+  - text: |
+        Hari ibigo 2 by'itumanaho mu rwanda , wagera kuri kimwe muri ibyo niba wifuza iyi serivise
+        MTN:
+          - Nyarutarama mtn branch | [google map](https://bit.ly/36Xshnx)
+          - Remera mtn branch  | [google map](https://bit.ly/37L3fZf)
+        AIRTEL:
+          - Gisiment branch | [google map](https://bit.ly/3LqR5De)
+          - Remera branch  | [google map](https://bit.ly/3vT4LAw)
+  utter_Sites_to_visit:
+  - text: |
+        Hari ahantu nyaburanga henshi muri kigali wasura,hamwe muri aho ni :
+          - Kigali Genocide memorial site
+          - Richard khant Museum
+          - kigali exhibition and conference village
+  utter_Shopping_malls:
+  - text: |
+        Dufite amasoko n'amaguriro manini muri kigali
+          - Simba supermarket Kigali City Mall   | [GoogleMap](https://bit.ly/36XS2UB)
+          - Masterpiece Mall, Remera, Giporoso   | [GoogleMap](https://bit.ly/3LmkP4d)
+          - Kigali City Mall | [GoogleMap](https://bit.ly/3KuRu6i)
+          - Kigali City Market | [GoogleMap](https://bit.ly/3vqHTJy)
+          - M Peace Plaza  | [GoogleMap](https://bit.ly/3ODhAay)
+          - Kisementi Business Mall | [GoogleMap](https://bit.ly/3EZ490r)
+          - Agaseke Products  | [GoogleMap](https://bit.ly/3y1ABOf)
+  utter_default:
+    - text: |
+          Mubyukuri ntago nsobanukiwe icyo ushaka kuvuga, nshobora gusubiza ibibazo byerekeye:
+          - Transport/uburyo bw'imigendere
+          - Gutumiza ibiryo n'aho wafatira infunguro hafi yawe
+          - ibirori n'imyidagaduro muri kigali
+          - Amasoko n'amaguriro muri kigali
+          - Serivie z'itumanaho
+          - Serivise zo kuvunjisha n'aho wazisanga 
+          - Servise z'ubukerarugendo n'ahantu nyaburanga wasura
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

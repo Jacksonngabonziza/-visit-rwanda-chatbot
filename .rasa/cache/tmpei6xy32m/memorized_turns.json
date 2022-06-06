@@ -1,0 +1,25 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpbhMiAUAQvc0lw==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVIUWJecUF+UUliSBltbWxAIJyUjw=": "utter_transport",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVIUWJecUF+UUliSBlxDmnBKaHsHGxAJsgcPU=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVIUWJecUF+UUliSBlxDmnBKaHUuMIhVB+fkpSZWptbSwAJ0uLmw==": "utter_goodbye",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVIUWJecUF+UUliSBlxDmnBKaHUuMIhVB+fkpSZSqRYQRVjNuUWAAAY6ZR": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVwRn5BQWZeenxuYk5OcW1tbEAgPBSFA==": "utter_Shopping_malls",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVwRn5BQWZeenxuYk5OcXEOQdND0EzYwG/hnJ4": "action_listen",
+    "eJyljkEKgCAQRa/iAeoCXqNlhEgNNaCjjFMb8e4JtWpj1G4+vHm8MZdO5chwGDsLBtIqX4ch60GrezhMAlTZPQFXBqlO0WplACkNxy4CbC70m6FRMWwhRqTVeOtcepfz+PnpbAWi72fLSynTCT+/jSU=": "utter_Sim-card",
+    "eJyljsEJgDAMRVfpALpA1/AoUooGDbSxpNFLcXcL6sWDFb3lw8vjtWmrVAoMq7G94ExapeMwZD1odQ6HUYAyu0TgzCDlKVqNDCBbwbGIAJsD/WYoVDTTHALSaLx1Lr7Luf38dJYC0de95eFl2kU/eLodxfqn6Q==": "action_listen",
+    "eJylkUEKhDAMAL/SB6wf6Dc8LlKqBg20aUnjwlL6dwvuXrxU9JbAZBjIO5eXypHhY+wkGEirfAyGrAetfovDJECV3RJwZZDqKlotDCCl4dhEgM2B3jM0Kvo1xIi0GG+dS9dyTjcPna1A9N1keb6Y9qdve1pfC2Eev1DKsANZvsKP": "utter_goodbye",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVwRn5BQWZeenxuYk5OcXEOQdND4VmEnJgZq5ucmJRCpFOg6km2xxCsZafn5JUmUpkvEEV4zYlFgA6b91F": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohL6c0Pi0xJycpMTm7tjYWALS1Hkw=": "utter_default",
+    "eJyFjMEJgDAMAFfJAE7QVURCrCkUY5Q28VO6uwX9+7uD4+bWJ2hX4RspWj41QHsBlQ4O8Inkaqyj9cplNFmHWgAVx0QiK8W9/6zcjAtunMjF/lbLA8myOvM=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVwZm5usmJRSm1tbEAmLtPRA==": "utter_Sim-card",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVwZm5usmJRSnEOQSuGo85sQC2r2oI": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVeTml8WmJOTlJicnZtbWxAN23UTI=": "utter_default",
+    "eJydjlEKgCAQBa/iATqBV4mQzdaQti107Ue8e4L9BEHR33swDNPn0qm8BzwMWPEba5XbMAwranUd8lGQK5sihsp4rle0mgOilBdHEsFgGvrP8FLBlIwDohHs8i1mQgeJHnLuquEE3Pdt2Q==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVwZklqcXxJfnxZZnFmUDDYgGBkVIs": "utter_Sites_to_visit",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVwZklqcXxJfnxZZnFmUQ6B00PQTNjAcxJcsA=": "action_listen"
+  }
+}

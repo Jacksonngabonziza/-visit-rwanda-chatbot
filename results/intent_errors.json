@@ -1,0 +1,10 @@
+[
+  {
+    "text": "Urinde?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6520440578460693
+    }
+  }
+]

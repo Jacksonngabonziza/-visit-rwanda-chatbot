@@ -1,0 +1,46 @@
+stories:
+- story: happy path 1
+  steps:
+  - user: |
+      muraho aba hano!
+    intent: greet
+  - action: utter_greet
+  - user: |
+      ndashaka kumenya ibijyanye n'ingendo muri kigali
+    intent: Transportation
+  - action: utter_transport
+  - user: |
+      good bye
+    intent:  goodbye
+  - action: utter_goodbye
+
+- story: happy path 2
+  steps:
+  - user: |
+      mwiriwe
+    intent: greet
+  - action: utter_greet
+  - user: |
+      ni hehe nagurira imyenda?
+    intent: Shopping_malls
+  - action: utter_Shopping_malls
+  - user: |
+      murakoze,naho se kugura simcard?
+    intent: Sim-card
+  - action: utter_Sim-card
+  
+  - user: |
+        murabeho
+    intent:  goodbye
+  - action: utter_goodbye
+
+- story: sad path 
+  steps: 
+  - user: |
+     mwaramutse
+    intent: greet
+  - action: utter_greet
+  - user: |
+     chogm izatangira ryari?
+    intent:  nlu_fallback
+  - action: utter_default

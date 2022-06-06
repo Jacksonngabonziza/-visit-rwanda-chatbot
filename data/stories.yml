@@ -1,0 +1,76 @@
+version: "3.1"
+
+stories:
+- story: happy path 1
+  steps:
+  - user: |
+      muraho aba hano!
+    intent: greet
+  - action: utter_greet
+  - user: |
+      ndashaka kumenya ibijyanye n'ingendo muri kigali
+    intent: Transportation
+  - action: utter_transport
+  - user: |
+      good bye
+    intent:  goodbye
+  - action: utter_goodbye
+
+- story: happy path 2
+  steps:
+  - user: |
+      mwiriwe
+    intent: greet
+  - action: utter_greet
+  - user: |
+      ni hehe nagurira imyenda?
+    intent: Shopping_malls
+  - action: utter_Shopping_malls
+  - user: |
+      murakoze,naho se kugura simcard?
+    intent: Sim-card
+  - action: utter_Sim-card
+  
+  - user: |
+        murabeho
+    intent:  goodbye
+  - action: utter_goodbye
+
+- story: sad path 
+  steps: 
+  - user: |
+     mwaramutse
+    intent: greet
+  - action: utter_greet
+  - user: |
+     chogm izatangira ryari?
+    intent:  nlu_fallback
+  - action: utter_default 
+
+- story: greet and ask for Shopping malls
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Shopping_malls
+  - action: utter_Shopping_malls
+ 
+
+- story: greet and ask for Sites to visit
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Sites_to_visit
+  - action: utter_Sites_to_visit
+ 
+- story: greet and ask how to get a sim-card
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Sim-card
+  - action: utter_Sim-card
+
+
+- story: Ask the user to rephrase whenever they send a message with low NLU confidence + inform the bot scope
+  steps:
+  - intent: nlu_fallback
+  - action: utter_default

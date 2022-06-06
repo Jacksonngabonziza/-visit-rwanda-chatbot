@@ -1,0 +1,472 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - Bite
+    - Amakuru
+    - Waramutse
+    - Waraye
+    - Uraho?
+    - Muraho?
+    - Mwaramutse?
+    - Kirigute se?
+    - Yooo
+    - Komera cyane
+    - Mukomere
+    - Mwaramukanye Imana
+    - Mumeze mute
+    - Mwiriwe
+    - Muramuke
+    - Murabeho
+    - Kagire Imana
+    - Ndumiwe
+    - bite man
+    - kiri gute
+    - amakuru yawe
+    - umeze neza
+    - Yewe
+    - Bite sha
+    - Bite mwa
+    - Komera komera
+    - Urinde
+    - Twavugana
+    - Reka tuvugane
+    - Umeze ute se?
+    - Uzi kuvuga
+    - Bite se aho?
+    - Muraturusha iki?
+    - Nakubaza
+    - Twabababza
+    - Umva
+    - Igisa ngo gute se?
+    - umusa
+    - Eyoooo
+    - Ni iki gishya se?
+    - Muduhishiye iki?
+    - Ni ibiki bijya mbere se?
+    - Weeee
+    - Yewe
+    - Data weeeee
+    - Umva man 
+    - Byiza
+    - Nagusuhuzaga
+    - Umva sha
+    - Muraho yemwe
+    - Abahano 
+    - Abahano bite
+    - Murakoma
+    - Ese bite ra
+    - Mbwira
+    - Reka nkubaze
+- intent: goodbye
+  examples: |
+    - peace
+    - Umunsi mwiza
+    - Kubonane mukanya
+    - Ijoro ryiza
+    - Urabeho
+    - Urabeho Icyahanzwe
+    - Urabeho
+    - urabeho
+    - Ugire umunsi mwiza
+    - Reba hafi yawe
+    - Urabeho
+    - Tuzakubona nyuma
+    - Ndangije
+    - Ndangije
+    - Urabeho!
+    - Urabeho icyahanzwe
+    - Urabeho
+    - Urabeho
+    - turi kumwe
+    - ciao
+    - bye
+    - bye bye
+    - bayi wa robot
+    - reka tubeturangirije hano
+    - nuko bayi
+    - Urabeho, byari byiza kuganira nawe
+    - Urabeho!
+    - Urabeho
+    - kugufata nyuma
+    - sawa turi kumwe
+    - sawa man ni ahubutaha
+    - Gusezera - Ndagusezeye
+    - Urabeho
+    - Urabeho rasa Icyahanzwe
+    - Urabeho.
+    - Ijoro ryiza
+    - Urabeho
+    - Yego urabeho slay
+    - Yego urabeho 
+    - Urabeho
+    - Yego urabeho
+    - Yego urabeho
+    - Tubonane nyuma
+    - Tubonane
+    - Tubonane
+    - Tubonane. Urabeho
+    - Wiyiteho
+    - Urabeho
+    - Tuvugane nawe nyuma
+    - Urare aharyana
+    - Sohoka
+    - Funga iki kiganiro
+    - Urabeho
+    - reka ngende
+    - nciyeho
+    - ndagiye
+    - ndigendeye
+    - reka nigendere
+    - sawa bayi
+    - reka ngucike
+    - reka dusoze ikiganiro
+    - Bye
+- intent: deny
+  examples: |
+    - oya 
+    - wap
+    - oya 
+    - ntibibaho
+    - reka reka
+    - ntibishoboka
+    - ntago ariko mbitekereza
+    - ntago twemeranya 
+    - nta bwoba mfite
+    - ntago bteye impuhwe na gato
+    - ntago ibyo mbikunda
+    - ntago byakunda
+    - mu by'ukuri sibyo
+    - habe na gato
+    - rwose
+    - ntago ari byo
+    - Mfite ubwoba ,sibyo
+    - Mbabarira, sibyo rwose
+    - birababaje, nta kuntu byagenda
+    - Sinshaka
+    - sinshaka kukiguha
+    - sinshaka kuvuga
+    - ntacyo nshaka gutanganza
+    - ntago nza kukiguha
+    - nein
+    - oya 
+    - oya ibi simbishaka
+    - wap
+    - Ntabwo ari
+    - Nta na rimwe
+    - Ntukabitindeho
+    - oya,urakoze
+    - oyo nukuri
+    - oya ,murakoze
+    - oya
+    - oyaa
+    - ntago ari ukuri
+    - sibyo rwose
+    - gabanya
+    - oya rwose
+    - hakana
+    - ndabihakanye
+    - ntago ibi mbikunda
+    - siko njye mbitekereza
+    - ntabwoba binteye
+    - ntago mbyizeye
+    - oya
+    - na
+    - nah
+    - oya meze neza
+    - oya si ibyanjye
+    - oya ni ubwa mbere
+    - oya meze neza
+    - nehi
+    - nein
+    - habe na gato
+    - reka reka
+    - ntukabitindeho
+    - urakoze ariko oya
+    - nta nakimwe muri ibyo
+    - ntago mbyemera
+- intent: bot_challenge
+  examples: |
+    - Uri icyahanzwe?
+    - Uri umuntu?
+    - Ndikuvugana nicyahanzwe?
+    - Ndikuvugana ni umuntu?
+    - Uyu ni umuntu nyawe?
+    - Iki ni icayahanzwe?
+    - ndimo mvuga nicyahanzwe?
+    - ndimo kuvugana numuntu?
+    - uri umufasha?
+    - ndimo mvugana numuntu ukora?
+    - Ndi ku cyahanwe gikora?
+    - ndi ku kiremwa muntu?
+    - uyu ni umuntu?
+    - iyi ni asistant ya AI?
+    - Uri umuntu?
+    - Wowe uri icyahanzwe cyangwa umuntu?
+    - Urinde?
+    - mbwira ibyawe?
+    - wumva iki?
+    - Uri uwanyawo?
+    - Uri baringa?
+    - Uri ubwenge bucurano?
+    - Nturi icyaremwe?
+    - uri ikibaho baganiriraho?
+    - Wowe uri icyahanwe rasa?
+    - Wowe uri icyahanzwe?
+    - Uri irobo?
+    - Uri icyahanzwe?
+    - Uri icyahanzwe?
+    - Uri ubwenge bucurano?
+    - Uri iwanyawe?
+    - Ese koko uri icyahanzwe?
+    - Uri irobo?
+    - Urabizi neza uri icyahanzwe?
+    - Icyahanzwe?
+    - uyu ni nde turi kuvugana
+    - ndikuvugana na bot
+    - naba ndi kuvugana na bot
+    - iyi ni chatbot
+    - witwa nde
+    - bakwita nde
+    - ni nde tuvugana
+    - uri bot ya rasa
+    - waba uri bot ya rasa
+    - niko bakwita nde
+    - amazina yawe ni nde
+    - ababyeyi bakwise nde
+    - uri inde
+    - ni nde turikuvugana
+    - uri robot
+    - waba uri irobo
+- intent: Order_food
+  examples: |
+    - ni hehe natuma ibiryo?
+    - ni gute natumiza ibiryo ?
+    - ese mugira hantu abantu batumiza ibiryo mu rwanda?
+    - ahantu heza nafatira ibya saa sita ni hehe?
+    - ni  hehe nafatira ifunguro rya ninjoro?
+    - mushobora kungezaho ibiryo mu rugo?
+    - ni hehe nakura ibiryo biryoshye?
+    - ndashaka umuntu wangezaho ibiryo
+    - ndashonje,ni hehe nakura ibiryo ?
+    - haba hari ari resitora nziza hano hafi?
+    -  ndashonje
+    - ni hehe nagurass vegitable burger ?
+    - ese mugira service zo gutumiza ibiryo kuri murandasi rwanda?
+    - ni hehe nagura jolof mu kigali?
+    - ese mugira  kfc cyangwa mc donald muri kigali?
+    - ni hehe nagura pizza muri kigali?
+    - nagura hehe wine?
+    - ndashaka whisky,nayigura hehe?
+    - nabona gute hamburger?
+    - ni bihe biryo nshobora gutumiza?
+    - ni iki nakora nshaka gutumiza ibiryo
+    - ni gute nabona ibiryo?
+    - uzi ukuntu nabona ibiryo?
+    - wambwira ukuntu nabona ibiryo muri kigali?
+    - haba hari uburyo natumiza ibiryo ndi mu rugo?
+    - ni hehe batanga serivise zo gutumiza ibiryo muri Kigali
+- intent: Transportation
+  examples: |
+    - nshaka kujya rusizi
+    - ni gute nagera kuri kigali convetion centre?
+    - ndashaka kujya ku  intare arena,wamfasha iki?
+    - ni ubuhe buryo bwa transiporo umuntu yakoresha hano mu  rwanda?
+    - ese mugira  Uber mu rwanda?
+    - nigute nabona tagisi ?
+    - ni angahe kuva hano ugera kuri Mariot hoteli?
+    - Ni gute nabona moto hano?
+    - moto ni angahe hano i kigali?
+    - Nshakira tagisi 
+    - Ushobora kunyoreherereza imodoka?
+    - ni gute nagera mu mujyi?
+    - Ese mugira  gareyamoshi mu rwanda?
+    - ni gute nagerayo?
+    - ni kure bingana iki uvuye hano?
+    - nshobora kujya i remera n'imodoka?
+    - nagera gute mu mujyi ?
+    - nyoherereza imodoka 
+    - ikirometero kimwe ni angahe kuri moto?
+    - ese tagisi/tax zirahenze muri kigali?
+    - nakura hehe moto?
+    - ni ubuhe buryo bwa transport bukoreshwa cyane muri kigali?
+    - natembera gute muri uyu mujyi wa kigali?
+    - ndashaka guafata imodoka
+    - ndashaka moto
+    - ingendo zikorwa gute  muri kigali?
+    
+- intent: Exchange_money
+  examples: |
+      - mfite amadorali nshaka kuyanvunjijisha mu manyarwanda
+      - idarali rigeze kuri angahe muri kigali?
+      - haba hari abantu bavunjisha hano hafi?
+      - ni hehe nakura serivise zo kuvunjisha muri kigali?
+      - nabona aho mvunjisha amadorali yanjye ?
+      - ni gute nakwishyura? mfite amadorali yonyine
+      - ese biremewe kwishyura mu madorali muri kigali?
+      - ni ayahe mafaranga yemewe mu  rwanda?
+      - servise zo kuvunjisha
+      - serivise zo kumvunjisha amafaraga
+      - nakura hehe banki?
+      - nakwishyura nkoresheje amashilingi ya kenya? cyangwa ni ukuvunjisha?
+      - idorali rigeze kuri angahe?
+      - amanyarwanda ageze kuri angahe?
+      - ni hehe navunjisha
+      - ni gute navunjisha mu rwanda?
+      - nakurahe umuvunjayi hafi hano?
+      - ndashaka kuvunjisha
+      - nakwishyura mu madorali?
+      - ni angahe kuvunjisha amadorali uyashyira mu manyarwanda?
+      - idorali rimwe ni angahe mu manyarwanda
+      - ni gute navunjisha amafaranga yanjye?
+      - kuvunjisha bikorwa gute mu rwanda
+      - waba uzi ukiuntu kuvunjisha bikorwa?
+      - navunjisha gute mu manyarwanda?
+      - ni hehe nakura amadorali
+      - ni hehe nakura umuvunjayi?
+      - namenya gute aho navunjiha amafaranga yanjye?
+      - ni gute nabona amadorali ya amerika
+      - mfite amadorali 5000 ni hehe navunjisha mu manyarwanda
+- intent: Sim-card
+  examples: |
+    - ndashaka servise za interineti/murandasi
+    - ni ikihe kigo gitanga interineti yihuta mu rwanda
+    - navana hehe simukadi yo mu rwanda?
+    - simukadi mu rwanda igura angahe?
+    - nkeneye interineti yihuta cyane
+    - navanahe serivise z'itumanaho muri kigali?
+    - ni iki gisabwa ngo mbone simukadi yo mu rwanda?
+    - ese nemerewe gutunga sim-card yo mu rwanda ndi umunyamahanga?
+    - mugira serivise za mtn mu rwanda?
+    - ese nshobora gukomeza gukoresha umurongo wa vodakomu wanjye hano mu rwanda?
+    - ntago nabasha guhamagara,navuye ku murongo
+    - mugira iyihe mirongo y'itumanaho hano mu rwanda
+    - nabona gute sim card
+    - ni hehe akongereramo amafaranga muri telefoni yanjye
+    - MTN yaba ikorera no mu Rwanda
+    - TIGO yaba ikorera mu RWANDA
+    - roaming ni angahe mu Rwanda
+    - ni gute nabona internet
+    - intniernet ni ubuntu mu Rwanda?
+    - igihe cyiza cyo guhamagara ni ikihe ?
+    - Sim-card ni angahe?
+    - bisaba kwerekana passport yanjye ngo mbone simcard?
+  
+- intent: Sites_to_visit
+  examples: |
+    - ni hehe nasura mu gihe cyanjye cyo kuruhuka?
+    - ni ibihe bice byiza nasura muri kigali?
+    - ndashaka kumenya neza kigali,ni hehe nasura?
+    - haba hari ibintu nyaburanga muri kigali umuntu yasura?
+    - ndashaka kumenya neza ahantu ndangamuco muri kigali
+    - ahantu ho gusura
+    - ahantu heza nasura muri kigali?
+    - niyihe site nziza y'ubukerarugenda mu rwanda?
+    - ni hehe najya kwishimishiriza?
+    - ahantu h'ingenzi twasura
+    - site z'ubukerarugendo mu rwanda
+    - ni hehe natemberera muri kigali?
+    - nasura hehe nshaka kumenya u rwanda?
+    - mugira inzu ndangamirage mu rwanda?
+    - muri kigali habamo parike?
+    - mugira parike z'ubukerarugendo mu rwanda?
+    - mu rwanda haba amashyamba ya kimeza angahe?
+    - ahantu nyaburanga mu rwanda 
+    - ndashaka kumenya amateka y'urwanda ,ni hehe nasura?
+    - Urwibutso rwa jenoside yakorewe abatutsi 1994 ruherereye hehe?
+- intent: Shopping_malls
+  examples: |
+    - ni hehe najya guhahira?
+    - iguriro ryambere ryiza muri kigali?
+    - ni hehe nagura imyenda ?
+    - ndashaka kujya guhaha
+    - amaguriro muri kigali
+    - ni hehe nagura ibikoresho byo mu rugo?
+    - ibintu byose byashize ,ni hehe najya guhahira?
+    - ndashaka kujya muri siporo, ni hehe nagura inkweto za siporo?
+    - ndashaka kugura inkweto
+    - nagura hehe ibikoresho by'ikoranabuhanga
+    - ni hehe nagura imyenda?
+    - isoko riba hehe?
+    - ni ayahe masoko manini muri kigali?
+    - mugira amaguriro muri kigali?
+    - mugira amasoko?
+    - ndashaka guhaha
+    - nakura hehe imyenda
+    - ndashaka kugura agakomo
+    - ndashaka kugura telefone
+    - ndashaka kugura urwibutso
+    - amasoko/amaguriro
+    - mugira zara mu rwanda?
+    - ni hehe hari iduka ry'ikoranabuhanga hafi hano? 
+- intent: out_of_scope
+  examples: |
+    - zigama itike
+    - ariko nari nabikubwiye
+    - ariko niba rasa ari ubunt kuberiki nkenera itsinda ryabagurisha
+    - gura kimwe 
+    - gura imbuga 
+    - mpamagara papa
+    - twakomeza kwandikirana 
+    - ushobora kuzigama ibya ninjoro
+    - urashobora kunshimisha
+    - washobora guteka ibya ninjoro
+    - wampa igikombe cyikawa
+    - washobora kumfasha kuri aya ma dosiye
+    - wantiza ku ma dosiye yawe
+    - wantiza ku ma dosiye yawe
+    - ushiobora kwigira ku biganiro  byawe
+    - ushobora kuvuga kuri politike
+    - ushobora gusobanukirwa
+    - ntago ubona
+    - chgfhgh
+    - igishinwa yego?
+    - ubukonje
+    - nyumva,gerageza 
+    - ihuze na alexa
+    - cr
+    - serivise yabakiriya
+    - nigeze nkwangiza
+    - ibya ninjoro
+    - wizerera Imana
+    - ugira nimero ya telefone
+    - ugira ifoto yawe
+    - uranzi
+    - uzi ras
+    - ukunda foromaje
+    - ukunda umupira wamaguru
+    - ukunda film
+    - ugurisha ama robo
+    - urifuza ko twashakana
+    - dosiyene
+    - muganga 
+    - ikintu cyose
+    - urugero rwa chatbot
+    - jenoside
+    - nshakira uwo duhuje ikipe
+    - mpa inshuti yumukobwa 
+    - mpa ibiryo
+    - subirayo
+    - google
+    - byiza cyane,ndashaka kugura inzu
+    - ihangane gato,reka ngishake
+    - wari wabona Keith relly
+    - mfasha na Alma Abrams
+    - ntiza ubuzima bwawe
+    - uraho mama muto,reka nkongorere
+    - uraho,nakwandikiye mu minsi ishize ariko ntago na kimwe ndabona , amakuru mashya
+    - gute
+    - gute kuri NYC
+    - ipusi za jackson zimeze gute
+    - abana bameze gute
+    - nababona gute
+    - ibi nabisuzuma  gute
+    - bigenda gute ngo uvuge yeg
+    - wiga gute
+    - Rasa ni nziza gute
+    - ni gute igereranwa na alexa
+    - umaze igihe kinganiki ku murongo
+    - harabura igihe kingana niiki ngo verisiyo yikurikira ijye ahagaragara
+    - imirongo ingahe  ya ama kode
+    - 10+89 ni angah
